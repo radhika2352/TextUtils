@@ -69,5 +69,6 @@ def contact(request):
         <a href="https://www.linkedin.com/in/radhikaagrawal23/">LinkedIn</a>'''
     return HttpResponse(s)
 
-
+def about(request):
+    return render(request, 'about.html')
 
